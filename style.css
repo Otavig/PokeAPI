@@ -35,7 +35,7 @@ br{
 }
 
 .pokeContainer {
-    max-width: 1200px; /* Defina o valor desejado em pixels */
+    max-width: 1200px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -50,7 +50,7 @@ br{
     margin: 0 auto;
     padding: 20px;
     text-align: center;
-    width: 300px; /* Defina o valor desejado em pixels */
+    width: 300px;
     transition: 1s;
 }
 
