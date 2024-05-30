@@ -1,4 +1,4 @@
-const pokemonCount = 150; // Definindo o número total de Pokémon como 150
+const pokemonCount = 150;
 
 const colors = {
     // Definindo cores associadas aos tipos de Pokémon

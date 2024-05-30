@@ -1,36 +1,36 @@
-html{
+html {
     zoom: 0.8;
 }
 
-*{
+* {
     margin: 5px;
 }
-br{
+br {
     user-select: none;
 }
 
-.inicio{
+.inicio {
     margin: 2.5%;
 }
 
-.inicio label{
+.inicio label {
     margin-top: 1.5%;
 }
 
-.container-lg h1{
+.container-lg h1 {
     margin: 0px;
 }
 
-.saida h1{
+.saida h1 {
     text-align: center;
 }
 
-.saida img{
+.saida img {
     display: flex;
     margin: 0 auto;
 }
 
-.ocultar{
+.ocultar {
     display: none;
 }
 
@@ -40,7 +40,7 @@ br{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .pokemon {
@@ -52,13 +52,19 @@ br{
     text-align: center;
     width: 300px;
     transition: 1s;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    max-width: 100%; 
+    box-sizing: border-box;
 }
 
-.pokemon:hover{
+.pokemon:hover {
     transform: scale(1.1);
 }
 
-.imgContainer{
+.imgContainer {
     justify-content: center;
     align-items: center;
     background-color: rgba(255, 255, 255, 0.6);
@@ -69,22 +75,22 @@ br{
     text-align: center;
 }
 
-.imgContainer img{
+.imgContainer img {
     max-width: 90%;
 }
 
-.info{
+.info {
     margin-top: 20px;
 }
 
-.number{
+.number {
     background-color: rgba(0, 0, 0, 0.2);
     padding: 2px 13px;
     border-radius: 10px;
     font-size: 0.8rem;
 }
 
-.name{
+.name {
     margin: 15px 0 7px;
     letter-spacing: 1.5px;
 }
