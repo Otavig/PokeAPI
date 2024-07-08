@@ -1,0 +1,111 @@
+html {
+    zoom: 0.8;
+}
+
+* {
+    margin: 5px;
+}
+br {
+    user-select: none;
+}
+
+.inicio {
+    margin: 2.5%;
+}
+
+.inicio label {
+    margin-top: 1.5%;
+}
+
+.container-lg h1 {
+    margin: 0px;
+}
+
+.saida h1 {
+    text-align: center;
+}
+
+.saida img {
+    display: flex;
+    margin: 0 auto;
+}
+
+.ocultar {
+    display: none;
+}
+
+.pokeContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.pokemon {
+    background-color: #ffcaa7;
+    border-radius: 10px;
+    box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    transition: 1s;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    max-width: 100%; 
+    box-sizing: border-box;
+}
+
+.pokemon:hover {
+    transform: scale(1.1);
+}
+
+.imgContainer {
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+    width: 120px;
+    margin: 0 auto;
+    height: 120px;
+    text-align: center;
+}
+
+.imgContainer img {
+    max-width: 90%;
+}
+
+.info {
+    margin-top: 20px;
+}
+
+.number {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 2px 13px;
+    border-radius: 10px;
+    font-size: 0.8rem;
+}
+
+.name {
+    margin: 15px 0 7px;
+    letter-spacing: 1.5px;
+}
+
+.github-link {
+    color: black;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.github-link:hover {
+    color: #555;
+    transform: scale(1.1);
+}
